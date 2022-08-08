@@ -14,7 +14,6 @@ public class MessageResource {
         this.kafkaProducerService = kafkaProducerService;
     }
 
-    //http://localhost:8080/api/v1/kafka/publish?message=Hello Kafka, I send a message
     @GetMapping("/publish")
     public ResponseEntity<String> publish(@RequestParam("message") final String message){
         this.kafkaProducerService.sendMessage(message);
