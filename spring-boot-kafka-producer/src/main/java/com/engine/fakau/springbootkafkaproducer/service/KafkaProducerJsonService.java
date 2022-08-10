@@ -1,6 +1,6 @@
 package com.engine.fakau.springbootkafkaproducer.service;
 
-import com.engine.fakau.springbootkafkaproducer.model.Product;
+import com.engine.fakau.springbootKafkamodel.model.Product;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.KafkaHeaders;

@@ -1,6 +1,6 @@
 package com.engine.fakau.springbootkafkaproducer.web;
 
-import com.engine.fakau.springbootkafkaproducer.model.Product;
+import com.engine.fakau.springbootKafkamodel.model.Product;
 import com.engine.fakau.springbootkafkaproducer.service.KafkaProducerJsonService;
 import com.engine.fakau.springbootkafkaproducer.service.KafkaProducerService;
 import org.springframework.http.ResponseEntity;
