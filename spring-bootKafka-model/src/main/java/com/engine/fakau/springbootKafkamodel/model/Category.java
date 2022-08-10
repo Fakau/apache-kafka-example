@@ -1,4 +1,4 @@
-package com.engine.fakau.springbootkafkacosumer.model;
+package com.engine.fakau.springbootKafkamodel.model;
 
 import java.io.Serializable;
 
